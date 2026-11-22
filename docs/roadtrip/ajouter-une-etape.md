@@ -19,7 +19,7 @@ Le message **« Étape ajoutée »** confirme l'enregistrement.
 
 Dans **Ville de l'étape**, tapez au moins **3 lettres** : une liste de suggestions apparaît (5 villes au plus, issues d'OpenStreetMap).
 
-**Choisissez de préférence une ville dans la liste.**
+Il vaut mieux choisir une ville dans la liste.
 
 !!! warning "Pourquoi choisir dans la liste ?"
     Vous pouvez aussi garder votre propre saisie, par exemple si la ville n'est pas proposée (« Aucune suggestion : vous pouvez garder votre saisie. »).

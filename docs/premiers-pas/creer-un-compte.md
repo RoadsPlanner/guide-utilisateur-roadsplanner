@@ -20,10 +20,7 @@ Un compte vous permet de retrouver vos roadtrips sur n'importe quel appareil et 
 
 ![Le formulaire « Créer un compte »](../images/captures/inscription.png){ .capture loading=lazy }
 
-Vous êtes **connecté tout de suite** et vous arrivez sur la page **Mes roadtrips**, encore vide. La suite : [Créer un roadtrip](../roadtrip/creer.md).
-
-!!! info "Vos données"
-    Vos informations servent uniquement à faire fonctionner l'application.
+Vous êtes connecté tout de suite et vous arrivez sur la page **Mes roadtrips**, encore vide. La suite : [Créer un roadtrip](../roadtrip/creer.md).
 
 ## Si un message rouge apparaît
 
@@ -35,5 +32,4 @@ Vous êtes **connecté tout de suite** et vous arrivez sur la page **Mes roadtri
 | « Les deux mots de passe ne correspondent pas. » | Retapez le même mot de passe dans les deux champs. |
 | « Un compte existe déjà avec cet e-mail. » | Vous avez déjà un compte : cliquez sur **Se connecter avec cet e-mail**. |
 
-!!! tip "Conseil"
-    Les champs marqués d'une étoile **\*** sont obligatoires. S'il manque quelque chose, un bandeau en haut du formulaire indique combien de champs sont à compléter.
+Les champs marqués d'une étoile **\*** sont obligatoires. S'il manque quelque chose, un bandeau en haut du formulaire indique combien de champs sont à compléter.

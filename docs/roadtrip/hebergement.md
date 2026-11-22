@@ -1,6 +1,6 @@
 # Choisir où dormir
 
-Pour chaque étape, vous indiquez où vous dormez dans **« Où dormez-vous ? »**. Voici ce que chaque choix vous demande.
+Pour chaque étape, vous indiquez où vous dormez dans **« Où dormez-vous ? »**. Chaque choix demande des informations différentes.
 
 ## Hôtel, gîte, chambre d'hôtes
 

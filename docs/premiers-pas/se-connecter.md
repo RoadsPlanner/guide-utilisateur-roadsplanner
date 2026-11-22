@@ -27,5 +27,4 @@ Vous restez connecté sur cet appareil. Si votre session expire, l'application a
 En bas du menu de gauche, cliquez sur <span class="ui">Déconnexion</span>.
 Vous revenez sur la page de connexion avec le message **« Vous êtes déconnecté. »**
 
-!!! tip "Sur un ordinateur partagé"
-    Pensez toujours à vous déconnecter avant de partir.
+Sur un ordinateur partagé, pensez à vous déconnecter avant de partir.

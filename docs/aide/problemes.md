@@ -14,5 +14,5 @@
 | « Carte indisponible pour le moment. » | Le fond de carte ne se charge pas. | Vérifiez la connexion. La liste des étapes reste affichée. |
 | **« Page introuvable »** | Le lien est faux ou la page a été déplacée. | Cliquez sur <span class="ui">Mes roadtrips</span>. |
 
-!!! tip "Le réflexe en cas de doute"
+!!! tip "Si rien ne marche"
     Rechargez la page (touche **F5** sur ordinateur, ou tirez l'écran vers le bas sur téléphone). Si le problème continue, déconnectez-vous puis reconnectez-vous.

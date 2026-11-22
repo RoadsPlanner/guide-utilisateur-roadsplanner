@@ -1,6 +1,6 @@
 # Suivre le roadtrip
 
-Quand vous ouvrez un roadtrip, vous arrivez sur son **tableau de bord**. Il résume tout le voyage.
+Quand vous ouvrez un roadtrip, vous arrivez sur son **tableau de bord**. On y retrouve tout le voyage.
 
 ![Le tableau de bord du roadtrip « Alpes 2026 »](../images/captures/tableau-de-bord.png){ .capture loading=lazy }
 
@@ -10,7 +10,7 @@ Quand vous ouvrez un roadtrip, vous arrivez sur son **tableau de bord**. Il rés
 - Le bouton <span class="ui">Partager</span>, visible seulement par le propriétaire. Voir [Partager un roadtrip](../partage/partager.md).
 - Le bouton <span class="ui">Modifier</span>, pour changer le nom ou les dates.
 
-## Les trois chiffres clés
+## Les chiffres
 
 | Chiffre | Signification |
 |---|---|
