@@ -1,0 +1,57 @@
+site_name: Guide utilisateur RoadsPlanner
+site_url: https://roadsplanner.github.io/guide-utilisateur-roadsplanner/
+repo_url: https://github.com/RoadsPlanner/guide-utilisateur-roadsplanner
+repo_name: RoadsPlanner
+nav:
+  - Accueil: index.md
+  - Premiers pas:
+      - Créer un compte: premiers-pas/creer-un-compte.md
+      - Se connecter et se déconnecter: premiers-pas/se-connecter.md
+      - Découvrir l'écran: premiers-pas/decouvrir-l-ecran.md
+      - Installer l'application: premiers-pas/installer.md
+  - Préparer un roadtrip:
+      - Créer un roadtrip: roadtrip/creer.md
+      - Ajouter une étape: roadtrip/ajouter-une-etape.md
+      - Choisir où dormir: roadtrip/hebergement.md
+      - Suivre le roadtrip: roadtrip/tableau-de-bord.md
+      - Voir le trajet sur la carte: roadtrip/carte.md
+      - Modifier ou supprimer: roadtrip/modifier-supprimer.md
+  - Voyager à plusieurs:
+      - Partager un roadtrip: partage/partager.md
+      - Les droits de chacun: partage/droits.md
+  - Aide:
+      - Questions fréquentes: aide/faq.md
+      - Problèmes et solutions: aide/problemes.md
+      - Lexique: aide/lexique.md
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Basculer en mode sombre
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Basculer en mode clair
+markdown_extensions:
+  - attr_list
+  - tables
+  - admonition
+  - def_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - style/extra.css
+  - style/guide.css
