@@ -25,6 +25,7 @@ nav:
       - Lexique: aide/lexique.md
 theme:
   name: material
+  custom_dir: overrides
   language: fr
   palette:
     - scheme: default
@@ -39,6 +40,44 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Basculer en mode clair
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: fr
+          default: true
+          name: Français
+          build: true
+        - locale: en
+          name: English
+          build: true
+          site_name: RoadsPlanner user guide
+          nav_translations:
+            Accueil: Home
+            Premiers pas: Getting started
+            Créer un compte: Create an account
+            Se connecter et se déconnecter: Log in and log out
+            Découvrir l'écran: Find your way around
+            Installer l'application: Install the app
+            Préparer un roadtrip: Plan a road trip
+            Créer un roadtrip: Create a road trip
+            Ajouter une étape: Add a stop
+            Choisir où dormir: Choose where to sleep
+            Suivre le roadtrip: Follow your road trip
+            Voir le trajet sur la carte: See the route on the map
+            Modifier ou supprimer: Edit or delete
+            Voyager à plusieurs: Travel together
+            Partager un roadtrip: Share a road trip
+            Les droits de chacun: Who can do what
+            Aide: Help
+            Questions fréquentes: FAQ
+            Problèmes et solutions: Problems and solutions
+            Lexique: Glossary
+
 markdown_extensions:
   - attr_list
   - tables

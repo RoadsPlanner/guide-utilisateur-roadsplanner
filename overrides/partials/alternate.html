@@ -1,0 +1,14 @@
+{#- Choix de la langue : les deux langues sont toujours visibles, la langue en cours est mise en avant. -#}
+<div class="md-header__option">
+  <nav class="choix-langue" aria-label="Langue / Language">
+    {% for alt in config.extra.alternate %}
+      {% set active = alt.lang == config.theme.language %}
+      <a href="{{ alt.link | url }}" hreflang="{{ alt.lang }}" lang="{{ alt.lang }}"
+         class="choix-langue__lien{% if active %} choix-langue__lien--actif{% endif %}"
+         {% if active %}aria-current="true"{% endif %}>
+        <span class="choix-langue__code">{{ alt.lang | upper }}</span>
+        <span class="choix-langue__nom">{{ alt.name }}</span>
+      </a>
+    {% endfor %}
+  </nav>
+</div>
