@@ -1,0 +1,62 @@
+/* Guide utilisateur : captures d'écran et libellés de l'interface. */
+.md-typeset img.capture {
+  border: 1px solid #e1e4e7;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(46, 54, 60, 0.08);
+}
+
+/* Bouton ou menu de l'application, cité dans le texte. */
+.md-typeset .ui {
+  display: inline-block;
+  padding: 0 6px;
+  border: 1px solid #8a949b;
+  border-radius: 6px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* Choix de la langue dans l'en-tête : deux boutons lisibles (FR / EN). */
+.choix-langue {
+  display: flex;
+  gap: 4px;
+  padding: 3px;
+  margin: 0 8px;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 999px;
+}
+
+.choix-langue__lien {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 32px;
+  padding: 0 12px;
+  border-radius: 999px;
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.choix-langue__lien:hover {
+  background: rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+}
+
+.choix-langue__lien--actif,
+.choix-langue__lien--actif:hover {
+  background: #ffffff;
+  color: var(--md-primary-fg-color);
+}
+
+.choix-langue__code {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+/* Sur petit écran, seuls les codes FR / EN restent affichés. */
+@media screen and (max-width: 59.9375em) {
+  .choix-langue__nom {
+    display: none;
+  }
+}
